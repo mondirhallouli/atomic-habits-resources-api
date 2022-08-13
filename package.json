@@ -1,0 +1,23 @@
+{
+  "name": "atomic-habits-api",
+  "version": "1.0.0",
+  "description": "an api of the resources page of the famous book \"Atomic Habits\" by Author James Clear",
+  "main": "./api/app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "atomic",
+    "habits",
+    "james",
+    "clear"
+  ],
+  "author": "Mondir Hallouli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
